@@ -94,7 +94,7 @@ async function run() {
         }
     })
 
-    app.delete('/admin/all-coffee/:id', async(req, res) => {
+    app.delete('/all-coffee/:id', async(req, res) => {
         const deleteId = req.params.id
         const query = {id: deleteId}
 
